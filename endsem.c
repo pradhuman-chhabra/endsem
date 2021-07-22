@@ -41,7 +41,7 @@ int main(){
             int a = 0, c = 0;
             while(fgets(str, 100, file)){
                 if(str[0] == '\n'){
-                    printf("---------- %d ----------\n", c + 1);
+                    printf("%d\n", c + 1);
                     printf("Name : %sQuantity : %d\nPrice : %d\n", i.name, i.qty, i.price);
                     a = 0;
                     c++;
